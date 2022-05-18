@@ -4,124 +4,133 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Serif:ital,
+            opsz,wght@0,8..144,100;0,8..144,200;0,8..144,700;1,8..144,400&display=swap" 
+            rel="stylesheet">
     <title>namangan24</title>
 </head>
 <body>
     <header>
         <a href="./index.html">
-            <img src="picture/namangan24-logo.svg" alt="namangan24-logo">
+            <img class="logo-img" src="picture/namangan24-logo.svg" alt="namangan24-logo">
         </a>
         <span>
-            <img src="picture/buck.svg" alt="buck rate">
-            <img src="picture/price-P.svg" alt="P rate">
+            <span><span class="dollar-icon">$</span> 10137.2</span>
+            <span><span class="P-icon">P</span> 138.26</span>
         </span>
         <span>
             <img src="./picture/search-logo.svg" alt="search-logo">
             <!-- input search -->
         </span>
-       
-        <span>
-            <a href="#">УЗ</a> 
+
+        <span class="choose-language">
+            <span class="lan-uz">
+                <a href="#">УЗ</a> 
+            </span>
+            <span class="lan-ru">
+                <a href="#">РУ</a>
+            </span>
         </span>
-        <span>
-            <a href="#">РУ</a>
-        </span>
-        <span>
-            <!-- search button -->
+
+        <span class="sign-up">
+            <!-- sign up button -->
             Войти        
         </span>
         <nav>
-            <ul>
-                <li>
+            <ul class="nav-list">
+                <li class="nav-item">
                     <a href="#">Главное</a>
                 </li>
-                <li>
+                <li class="nav-item">
                     <a href="#">Интересное</a>
                 </li>
-                <li>
+                <li class="nav-item">
                     <a href="#">Экономика</a>
                 </li>
-                <li>
+                <li class="nav-item">
                     <a href="#">Политика</a>
                 </li>
-                <li>
+                <li class="nav-item">
                     <a href="#">Общество</a>
                 </li>
-                <li>
+                <li class="nav-item">
                     <a href="#">Технологии</a>
                 </li>
-                <li>
+                <li class="nav-item">
                     <a href="#">Спорт</a>
                 </li>
-                <li>
+                <li class="nav-item">
                     <a href="#">Культура</a>
                 </li>
                 <li>
                     <a href="#">Происшествия</a>
                 </li>
-                <li>
+                <li class="nav-item">
                     <a href="#">Наука</a>
                 </li>
             </ul>
         </nav>
     </header>
     <main>
-        <aside>
+        <aside class="ads-box">
             <a href="#" target="_blank">
-                <img src="./picture/ads.png" alt="ads" srcset="./picture/ads.png 1x, ./picture/ads@2.png 2x">
+                <img class="banner-ads" src="./picture/ads.png" alt="ads" srcset="./picture/ads.png 1x, ./picture/ads@2.png 2x">
             </a>
         </aside>
         <section>
-            <ul>
-                <li>
+            <ul class="menu-list">
+                <li class="menu-item">
                     <h2>Кандидат на пост канцлера ФРГ Шольц назвал условия коалиционного соглашения</h2>
                     <p>Лидер Социал-демократической партии Германии (СДПГ) и кандидат на должность...</p>
-                    <img src="./picture/Flag-of-germany.jpg" alt="Flag of germany" srcset="./picture/Flag-of-germany.jpg 1x, ./picture/flag-of-germany@2x-1.jpg 2x" >
+                    <img class="menu-img" src="./picture/Flag-of-germany.jpg" alt="Flag of germany" srcset="./picture/Flag-of-germany.jpg 1x, ./picture/flag-of-germany@2x-1.jpg 2x" >
                     <div>
                         <img src="./picture/logo-1.svg" alt="logo-1">
                         <p>ИА Красная Весна 15:55</p>
                     </div>
                 </li>
-                <li>
+                <li class="menu-item">
                     <h2>Ученые доказали экспериментальным путем пользу покровных культур</h2>
                     <p>Новое исследование ученых университета Иллинойса объединяет полевые данные... </p>
-                    <img src="./picture/wheat.jpg" alt="wheat" srcset="./picture/wheat.jpg 1x, ./picture/wheat@2x.jpg 2x">
+                    <img class="menu-img" src="./picture/wheat.jpg" alt="wheat" srcset="./picture/wheat.jpg 1x, ./picture/wheat@2x.jpg 2x">
                     <div>
                         <img src="./picture/logo-2.svg" alt="logo-2">
                         <p>Газета.Ru 12:54</p>
                     </div>
                 </li>
-                <li>
+                <li class="menu-item">
                     <h2>Baidu запустила публичный сервис роботакси Apollo Go в Шанхае</h2>
                     <p>Автопарк Baidu состоит из модифицированных электромобилей EV... </p>
-                    <img src="./picture/white-car.jpg" alt="white car" srcset="./picture/white-car.jpg 1x, ./picture/white-car@2x.jpg 2x">
+                    <img class="menu-img" src="./picture/white-car.jpg" alt="white car" srcset="./picture/white-car.jpg 1x, ./picture/white-car@2x.jpg 2x">
                     <div>
                         <img src="./picture/logo-3.svg" alt="logo-3">
                         <p>Хайтек+ 13:44</p>
                     </div>
                 </li>
-                <li>
+                <li class="menu-item">
                     <h2>Стали известны ёмкости аккумуляторов всех моделей iPhone 13</h2>
                     <p>Во время презентации iPhone 13 Apple придала большое значения...</p>
-                    <img src="./picture/iPhone.jpg" alt="iPhone" srcset="./picture/iPhone.jpg 1x, ./picture/iPhone@2x.jpg 2x">
+                    <img class="menu-img" src="./picture/iPhone.jpg" alt="iPhone" srcset="./picture/iPhone.jpg 1x, ./picture/iPhone@2x.jpg 2x">
                     <div>
                         <img src="./picture/logo-4.svg" alt="logo-4">
                         <p>Digger.ru 14:25</p>
                     </div>
                 </li>
-                <li>
+                <li class="menu-item">
                     <h2>Nature: ученые смогли доказать природное происхождение коронавируса SARS-CoV-2</h2>
                     <p>Во время презентации iPhone 13 Apple придала большое значение...</p>
-                    <img src="./picture/doctors.jpg" alt="doctors" srcset="./picture/doctors.jpg 1x, ./picture/doctors@2x.jpg 2x">
+                    <img class="menu-img" src="./picture/doctors.jpg" alt="doctors" srcset="./picture/doctors.jpg 1x, ./picture/doctors@2x.jpg 2x">
                     <div>
                         <img src="./picture/logo-5.svg" alt="logo-5">
                         <p>Lenta.ru 10:54</p>
                     </div>
                 </li>
-                <li>
+                <li class="menu-item">
                     <h2>Китайская марка JAC повысила цены на лифтбек и пикап в России</h2>
                     <p>Две модели китайского бренда JAC из пяти, представленных на российском...</p>
-                    <img src="./picture/black-car.jpg" alt="black car" srcset="./picture/black-car.jpg 1x, ./picture/black-car@2x.jpg 2x">
+                    <img class="menu-img" src="./picture/black-car.jpg" alt="black car" srcset="./picture/black-car.jpg 1x, ./picture/black-car@2x.jpg 2x">
                     <div>
                         <img src="./picture/logo-1.svg" alt="logo-1">
                         <p>Тарантас Ньюс 10:44</p>
@@ -129,13 +138,14 @@
                 </li>
             </ul>
         </section>
-        <div>
+        <div class="banner-menu">
             <span>Хотите быть в курсе свежих новостей?  Включите уведомления!</span>
-            <a href="#">Включит</a>
+            <a class="button" href="#">Включит</a>
         </div>
         <div>
-            <ul>
-                <li>
+            <h3>В мире</h3>
+            <ul class="second-menu">
+                <li class="second-menu-item">
                     <img src="./picture/president.jpg" alt="president" srcset="./picture/president.jpg 1x, ./picture/president2.jpg 2x">
                     <a href="#">
                         <h2>В Германии выпустят ограниченную партию плюшевых мишек в образе Меркель</h2>
@@ -147,7 +157,7 @@
                     <span><img src="./picture/logo-1.svg" alt="icon"> ТАСС <time datetime="2022-05-17 12:25">11:25</time></span> 
                 </li>
 
-                <li>
+                <li class="second-menu-item">
                     <img src="./picture/plane.jpg" alt="president" srcset="./picture/plane.jpg 1x, ./picture/plane2.jpg 2x">
                     <a href="#">
                         <h2>Китайский Чунцин запустил чартерный рейс для студентов до Британии</h2>
@@ -159,7 +169,7 @@
                     <span><img src="./picture/logo-1.svg" alt="icon"> ИА Красная Весна <time datetime="2022-05-17 12:25">12:25</time></span> 
                 </li>
 
-                <li>
+                <li class="second-menu-item">
                     <img src="./picture/city.jpg" alt="president" srcset="./picture/city.jpg 1x, ./picture/city2.jpg 2x">
                     <a href="#">
                         <h2>Акции КНР утратили доверие инвесторов. Что делать с бумагами прямо сейчас</h2>
@@ -171,7 +181,7 @@
                     <span><img src="./picture/logo-1.svg" alt="icon"> ИА Красная Весна <time datetime="2022-05-17 12:25">12:25</time></span> 
                 </li>
 
-                <li>
+                <li class="second-menu-item">
                     <img src="./picture/street.jpg" alt="president" srcset="./picture/street.jpg 1x, ./picture/street2.jpg 2x">
                     <a href="#">
                         <h2>Китайский Чунцин запустил чартерный рейс для студентов до Британии</h2>
@@ -184,10 +194,11 @@
                 </li>
 
                 <li>
-                    <a href="#">Показать ещё </a>
+                    <a class="button-more" href="#">Показать ещё </a>
                 </li>
             </ul>
-            <ul>
+            
+            <ul class="menu-side">
                 <h3>Главное</h3>
                 <li>
                     <h4>В Фергане создадут узбекско-пакистанский университет</h4>
@@ -212,7 +223,7 @@
         </div>
     </main>
     
-    <footer>
+    <footer class="footer-list">
         <a href="#"><img src="./picture/namangan24-logo.svg" alt=""></a>
         <p>Воспроизводство, копирование, использование информации с сайта «NAMANGANLIKLAR24.UZ» 
            возможно только с предварительного письменного разрешения редакции.

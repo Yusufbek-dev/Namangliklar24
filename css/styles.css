@@ -1,0 +1,96 @@
+ul li {
+  list-style: none;
+}
+ul li a {
+  text-decoration: none;
+}
+
+.dollar-icon {
+  color:#7296EC;
+  font-weight: 800;
+  text-decoration: none;
+}
+.P-icon {
+  color:#7296EC;
+  font-weight: 800;
+}
+
+.choose-language {
+  font-family: "Roboto Serif";
+   background-color: #DCE6FF;
+   width: 70px;
+   height: 36px;
+}
+.lan-uz {
+  background-color: #ffffff;
+}
+.sign-up {
+  font-family: "Roboto Serif";
+  background-color: #7296EC;
+  color: #ffffff;
+}
+
+.nav-list {
+  width: 1200px;
+  height: 41px;
+  display: flex;
+  justify-content: space-around;
+}
+.ads-box {
+  width: 1200px;
+  height: 128px;
+}
+.banner-ads {
+  object-fit:contain;
+}
+
+.menu-item {
+  width: 393px;
+  height: 382px;
+  background-color: #F6F6F6;
+}
+.menu-img {
+  object-fit: contain;
+}
+
+.banner-menu {
+  width: 1050px;
+  height: 100px;
+  background-color:#F78B3B;
+  opacity: 0.7;
+}
+.button {
+  width: 30px;
+  height: 13px;
+  background-color: #F78B3B;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+
+.button-more {
+  display: inline-block;
+  text-align: center;
+  line-height: 53px;
+  width: 796px;
+  height: 53px;
+  background-color: #EAEAEA;
+}
+
+.second-menu-item {
+  background-color:#F6F6F6;
+}
+
+.menu-side {
+  background-color: #F6F6F6;
+  font-family: "Roboto Serif";
+  font-weight: 400;
+
+}
+
+.footer-list {
+  font-family: "Roboto Serif";
+  font-weight: 200;
+  background-color:#7296EC;
+}
+
