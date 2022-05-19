@@ -5,40 +5,37 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/styles.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Roboto+Serif:ital,
-            opsz,wght@0,8..144,100;0,8..144,200;0,8..144,700;1,8..144,400&display=swap" 
-            rel="stylesheet">
     <title>namangan24</title>
 </head>
 <body>
     <header>
-        <a href="./index.html">
-            <img class="logo-img" src="picture/namangan24-logo.svg" alt="namangan24-logo">
-        </a>
-        <span>
-            <span><span class="dollar-icon">$</span> 10137.2</span>
-            <span><span class="P-icon">P</span> 138.26</span>
-        </span>
-        <span>
-            <img src="./picture/search-logo.svg" alt="search-logo">
-            <!-- input search -->
-        </span>
-
-        <span class="choose-language">
-            <span class="lan-uz">
-                <a href="#">УЗ</a> 
+        <div class="header-top">
+            <a href="./index.html">
+                <img class="logo-img" src="picture/namangan24-logo.svg" alt="namangan24-logo">
+            </a>
+            <span>
+                <span><span class="dollar-icon">$</span> 10137.2</span>
+                <span><span class="P-icon">P</span> 138.26</span>
             </span>
-            <span class="lan-ru">
-                <a href="#">РУ</a>
+            <span>
+                <img src="./picture/search-logo.svg" alt="search-logo">
+                <input placeholder="Поиск" type="text">
             </span>
-        </span>
+    
+            <span class="choose-language">
+                <span class="lan-uz">
+                    <a href="#">УЗ</a> 
+                </span>
+                <span class="lan-ru">
+                    <a href="#">РУ</a>
+                </span>
+            </span>
+    
+            <span class="sign-up">
+                Войти        
+            </span>
+        </div>
 
-        <span class="sign-up">
-            <!-- sign up button -->
-            Войти        
-        </span>
         <nav>
             <ul class="nav-list">
                 <li class="nav-item">
@@ -74,6 +71,7 @@
             </ul>
         </nav>
     </header>
+
     <main>
         <aside class="ads-box">
             <a href="#" target="_blank">
@@ -138,12 +136,14 @@
                 </li>
             </ul>
         </section>
+<br>
         <div class="banner-menu">
             <span>Хотите быть в курсе свежих новостей?  Включите уведомления!</span>
             <a class="button" href="#">Включит</a>
         </div>
-        <div>
-            <h3>В мире</h3>
+
+        <h3>В мире</h3>
+        <div class="menu-down">
             <ul class="second-menu">
                 <li class="second-menu-item">
                     <img src="./picture/president.jpg" alt="president" srcset="./picture/president.jpg 1x, ./picture/president2.jpg 2x">
@@ -178,7 +178,7 @@
                         За последние месяцы инвесторы в китайский рынок пережили настоящее потрясение — 
                         из-за ужесточения регулирования технологического сектора и критики некоторых...
                     </p>
-                    <span><img src="./picture/logo-1.svg" alt="icon"> ИА Красная Весна <time datetime="2022-05-17 12:25">12:25</time></span> 
+                    <span><img src="./picture/logo-1.svg" alt="icon"> ИА Красная Весна <time datetime="2022-05-17T12:25">12:25</time></span> 
                 </li>
 
                 <li class="second-menu-item">
@@ -197,24 +197,24 @@
                     <a class="button-more" href="#">Показать ещё </a>
                 </li>
             </ul>
-            
+           
             <ul class="menu-side">
-                <h3>Главное</h3>
                 <li>
+                    <h3>Главное</h3>
                     <h4>В Фергане создадут узбекско-пакистанский университет</h4>
-                    <p>Sputnik Узбекистан <time>4:09</time></p>
+                    <p>Sputnik Узбекистан <time datetime="2022-05-17T12:25">4:09</time></p>
                 </li>
                 <li>
                     <h4>Узбекистан утвердил соглашение о содействии занятости в странах СНГ</h4>
-                    <p>ИА Красная Весна <time>10:09</time></p>
+                    <p>ИА Красная Весна <time datetime="2022-05-17T12:25">10:09</time></p>
                 </li>
                 <li>
                     <h4>В Узбекистане увеличиваются очереди за автомобилями UzAuto</h4>
-                    <p>Sputnik Узбекистан <time>4:09</time></p>
+                    <p>Sputnik Узбекистан <time datetime="2022-05-17T12:25">4:09</time></p>
                 </li>
                 <li>
                     <h4>Минтуризма опровергло приостановку выплат за шаги</h4>
-                    <p>Sputnik Узбекистан <time>4:09</time></p>
+                    <p>Sputnik Узбекистан <time datetime="2022-05-17T12:25">4:09</time></p>
                 </li>
                 <li>
                     <a href="#"><img src="./picture/ad.jpg" alt="ad" srcset="./picture/ad.jpg 1x, ./picture/ad2.jpg 2x"></a>
@@ -224,10 +224,13 @@
     </main>
     
     <footer class="footer-list">
-        <a href="#"><img src="./picture/namangan24-logo.svg" alt=""></a>
-        <p>Воспроизводство, копирование, использование информации с сайта «NAMANGANLIKLAR24.UZ» 
-           возможно только с предварительного письменного разрешения редакции.
-        </p>
+       <div class="footer-top">
+        <div>
+            <a href="#"><img src="./picture/namangan24-logo.svg" alt=""></a>
+            <p>Воспроизводство, копирование, использование информации с сайта «NAMANGANLIKLAR24.UZ» 
+               возможно только с предварительного письменного разрешения редакции.
+            </p>
+        </div>
         <ul>
             <li><a href="#">Информация о сайте</a></li>
             <li><a href="#">Напишите нам</a></li>
@@ -239,11 +242,12 @@
             <li><a href="#">Темы дня</a></li>
             <li><a href="#">Наша команда</a></li>
         </ul>
+       </div>
         <hr>
 
-        <div>
+        <div class="footer-down">
             <p>Наши социальные сети</p>
-            <ul>
+            <ul class="social-icon">
                 <li><a href="#"><img src="./picture/facebook.png" alt=""> </a></li>
                 <li><a href=""><img src="./picture/youtube.png" alt=""></a></li>
                 <li><a href=""><img src="./picture/telegram.png" alt=""></a></li>

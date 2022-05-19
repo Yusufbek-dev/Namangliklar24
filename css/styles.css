@@ -5,6 +5,11 @@ ul li a {
   text-decoration: none;
 }
 
+.header-top {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
 .dollar-icon {
   color:#7296EC;
   font-weight: 800;
@@ -15,20 +20,35 @@ ul li a {
   font-weight: 800;
 }
 
+
 .choose-language {
-  font-family: "Roboto Serif";
    background-color: #DCE6FF;
+  text-align: center;
    width: 70px;
    height: 36px;
+   line-height: 36px;
+}
+.lan-uz a, .lan-ru a{
+  text-decoration: none;
 }
 .lan-uz {
   background-color: #ffffff;
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  
 }
 .sign-up {
-  font-family: "Roboto Serif";
   background-color: #7296EC;
   color: #ffffff;
+  line-height: 40px;
+  text-align: center;
+  width: 80px;
+  height: 40px;
+  
+
 }
+
 
 .nav-list {
   width: 1200px;
@@ -43,6 +63,12 @@ ul li a {
 .banner-ads {
   object-fit:contain;
 }
+.menu-list {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
 
 .menu-item {
   width: 393px;
@@ -52,21 +78,24 @@ ul li a {
 .menu-img {
   object-fit: contain;
 }
-
 .banner-menu {
+  display: flex;
+  justify-content: center;
+  background-color:#f0ba91;
   width: 1050px;
   height: 100px;
-  background-color:#F78B3B;
-  opacity: 0.7;
+  line-height: 100px;
+  text-align: center;
 }
 .button {
-  width: 30px;
-  height: 13px;
   background-color: #F78B3B;
-  color: #ffffff;
+  padding: 13px, 30px, 13px, 30px;
   text-decoration: none;
 }
+.menu-down {
+  display: flex;
 
+}
 
 .button-more {
   display: inline-block;
@@ -80,12 +109,22 @@ ul li a {
 .second-menu-item {
   background-color:#F6F6F6;
 }
-
 .menu-side {
   background-color: #F6F6F6;
   font-family: "Roboto Serif";
   font-weight: 400;
 
+}
+
+.footer-top {
+  display: flex;
+}
+.footer-down {
+  display: flex;
+  justify-content: space-around;
+}
+.social-icon {
+  display: flex;
 }
 
 .footer-list {
