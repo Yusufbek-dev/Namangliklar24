@@ -9,6 +9,8 @@ ul li a {
   display: flex;
   justify-content: space-around;
   align-items: center;
+  font-family: "Rubik", "sane-serif";
+  font-weight: 500;
 }
 .dollar-icon {
   color:#7296EC;
@@ -44,9 +46,7 @@ ul li a {
   line-height: 40px;
   text-align: center;
   width: 80px;
-  height: 40px;
-  
-
+  height: 40px; 
 }
 
 
@@ -55,6 +55,8 @@ ul li a {
   height: 41px;
   display: flex;
   justify-content: space-around;
+  font-family: "Rubik", "sane-serif";
+  font-weight: 500;
 }
 .ads-box {
   width: 1200px;
@@ -67,6 +69,8 @@ ul li a {
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
+  font-family: "Rubik", "sane-serif";
+  font-weight: 500;
 }
 
 
@@ -75,10 +79,15 @@ ul li a {
   height: 382px;
   background-color: #F6F6F6;
 }
+.menu-item p{
+  font-weight: 400;
+}
 .menu-img {
   object-fit: contain;
 }
 .banner-menu {
+  font-family: "Rubik", "sane-serif";
+  font-weight: 500;
   display: flex;
   justify-content: center;
   background-color:#f0ba91;
@@ -94,6 +103,8 @@ ul li a {
 }
 .menu-down {
   display: flex;
+  font-family: "Rubik", "sane-serif";
+  font-weight: 500;
 
 }
 
@@ -109,11 +120,13 @@ ul li a {
 .second-menu-item {
   background-color:#F6F6F6;
 }
-.menu-side {
-  background-color: #F6F6F6;
-  font-family: "Roboto Serif";
+.second-menu-item p{
   font-weight: 400;
-
+}
+.menu-side {
+  font-family: "Rubik", "sane-serif";
+  font-weight: 500;
+  background-color: #F6F6F6;
 }
 
 .footer-top {
@@ -128,8 +141,8 @@ ul li a {
 }
 
 .footer-list {
-  font-family: "Roboto Serif";
-  font-weight: 200;
+  font-family: "Rubik", "Sane-serif";
+  font-weight: 5000;
   background-color:#7296EC;
 }
 
