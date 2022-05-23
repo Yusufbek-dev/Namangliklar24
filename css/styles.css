@@ -1,3 +1,4 @@
+/* general css styles start */
 ul li {
   list-style: none;
 }
@@ -8,11 +9,9 @@ ul li a {
 * {
   box-sizing:border-box;
 }
-.container {
-  width: 1240px;
-  margin-left: auto;
-  margin-right: auto;
-}
+/* general css styles start */
+
+/* header top start */
 .header-top {
   background-color:#F6F6F6;
   height: 105px;
@@ -81,8 +80,15 @@ ul li a {
   width: 80px;
   height: 40px; 
 }
+/* header top start */
 
+.container {
+  width: 1240px;
+  margin-left: auto;
+  margin-right: auto;
+}
 
+/* navbar start */
 .nav-list {
   width: 1200px;
   height: 41px;
@@ -92,6 +98,7 @@ ul li a {
   font-family: "Rubik", "sane-serif";
   font-weight: 500;
 }
+/* navbar end */
 
 .ads-box {
   width: 1200px;
@@ -100,6 +107,8 @@ ul li a {
 .banner-ads {
   object-fit:contain;
 }
+
+ /* first menu start */
 .menu-list {
   display: flex;
   padding-left: 0;
@@ -109,7 +118,6 @@ ul li a {
   font-weight: 500;
 }
 
-
 .menu-item {
   background-color: #F6F6F6;
   width: 393px;
@@ -117,7 +125,6 @@ ul li a {
   margin:25px 5px;
   padding:8px;
   border-radius: 10px;
-  
 }
 .menu-item p{
   font-weight: 400;
@@ -125,6 +132,8 @@ ul li a {
 .menu-img {
   object-fit: contain;
 }
+ /* first menu end */
+
 .banner-menu {
   margin: auto;
   font-family: "Rubik", "sane-serif";
@@ -149,11 +158,11 @@ ul li a {
   border-radius: 10px;
   text-decoration: none;
 }
+/* second down menu start */
 .menu-down {
   display: flex;
   font-family: "Rubik", "sane-serif";
   font-weight: 500;
-
 }
 
 .button-more {
@@ -179,6 +188,9 @@ ul li a {
 .menu-down-item a{
   color: #000;
 }
+/* second down menu end */
+
+/*down side menu end */
 .menu-side {
   font-family: "Rubik", "sane-serif";
   margin-left: 10px;
@@ -190,7 +202,9 @@ ul li a {
   background-color: #F6F6F6;
   border-bottom: 2px solid #D2D2D2;
 }
+/* down side menu end */
 
+/* footer top start */
 .footer-top {
   display: flex;
   padding-left: 10px;
@@ -207,6 +221,9 @@ ul li a {
 .footer-links li {
   margin-bottom:10px;
 }
+/* footer top end */
+
+/* footer down start */
 .footer-down {
   display: flex;
   justify-content: space-around;
@@ -223,5 +240,4 @@ ul li a {
   font-weight: 500;
   background-color:#7296EC;
 }
-
-.
+/* footer down end */
